@@ -24,8 +24,8 @@ header nav .brand-logo {
 
 nav .brand-logo img {
   width: 50px;
-
 }
+
 
 main {
   flex: 1 0 auto;
@@ -33,4 +33,20 @@ main {
 
 header nav ul {
   height: 100px;
+}
+
+.input-field.input-container {
+  display: flex;
+  align-items: center;
+  float: none;
+  margin: 0 auto;
+}
+
+.input-field>#search {
+  margin-left: 10px;
+}
+
+footer.page-footer {
+  text-align: center;
+  padding: 30px;
 }
