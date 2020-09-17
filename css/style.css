@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  height: 500px;
+  background-image: url("../img/header.jpg");
+  background-size: cover;
+}
+
+header nav {
+  height: 100px;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+header nav .brand-logo {
+  height: 100px;
+}
+
+nav .brand-logo img {
+  width: 50px;
+
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header nav ul {
+  height: 100px;
+}
